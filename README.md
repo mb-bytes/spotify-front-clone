@@ -6,7 +6,8 @@ A fully responsive Spotify UI clone created using pure HTML and CSS.
 This project recreates the visual interface of Spotify, including the sidebar, navigation, playlists, cards, and bottom music player.
 
 ## Features
-- Modern Spotify-inspired design  
+- Modern Spotify-inspired design
+- Animations on icons as well as cards  
 - Sidebar navigation with Home, Search & Library  
 - Horizontal scrollable sections (Recently Played, Trending, etc.)  
 - Bottom music player UI  
@@ -17,4 +18,12 @@ This project recreates the visual interface of Spotify, including the sidebar, n
 ## Built With
 - HTML5  
 - CSS3  
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/mainpage.png)
+
+### Music Player
+![Some Animations](screenshots/animations.png)
 
