@@ -37,7 +37,7 @@
   overflow: hidden;
 }
 
-.nav {
+.side-nav {
   display: flex;
   flex-direction: column;
   background-color: #121212;
@@ -180,7 +180,7 @@
   padding-right: 1rem;
 }
 
-.top {
+.top-nav {
   position: sticky;
   top: 0;
   display: flex;
@@ -194,11 +194,23 @@
   display: flex;
   align-items: center;
 }
-
+.arrows button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.75rem;
+  margin-right: 1rem;
+}
 .arrows img {
-  height: 2.1875rem;
-  width: 2.1875rem;
+  height: 2rem;
+  width: 2rem;
   margin: 1rem;
+  opacity: 0.7;
+}
+.arrows img:hover{
+  height: 2.3rem;
+  width: 2.3rem;
+  opacity: 1;
 }
 
 .btn-exps {
@@ -206,14 +218,27 @@
   align-items: center;
   gap: 0.5rem;
 }
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  background-color: #1a1a1a;
+}
+.user i{
+  color: white;
+}
 
-.top i {
+.top-nav i {
   font-size: 25px;
   margin: 1rem;
   transition: tarnsform 0.2s ease;
 }
 
-.top i:hover {
+.top-nav i:hover {
   transform: scale(1.15);
   font-weight: 800;
 }
@@ -256,7 +281,7 @@
   transform: scale(1.1);
 }
 
-.top .inst-btn i {
+.top-nav .inst-btn i {
   font-size: 15px;
   margin-left: 0;
 }
@@ -264,6 +289,9 @@
 @media (max-width: 1000px) {
   .hide {
     display: none;
+  }
+  .user~.hide{
+    display:none;
   }
 }
 
